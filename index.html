@@ -37,9 +37,21 @@
 <p><p>
 <p><p>
 <p><p>
-            <div class="relate">
-                <img src="../photo/damn_keturon.jpeg" alt="meme 3">
-            </div>
+            <<div class="relate">
+    <img src="../photo/damn_keturon.jpeg" alt="meme 3" class="responsive-img">
+</div>
+
+<style>
+    .responsive-img {
+        max-width: 100%; /* Gambar tidak akan lebih lebar dari container-nya */
+        height: auto; /* Menjaga rasio gambar */
+        display: block; /* Menghapus jarak bawah default pada inline element */
+    }
+
+    .relate {
+        text-align: center; /* Opsional: jika ingin gambar rata tengah */
+    }
+</style>
 <p><p>
 <p><p>
 <p><p>
