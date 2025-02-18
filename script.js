@@ -1,4 +1,4 @@
-const display =
+const display = document.getElementById("display")
 
 document.getElementById("display");
 
