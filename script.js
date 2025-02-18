@@ -9,7 +9,7 @@ function clearDisplay(){
 }
 
 function backspace(input){
-    display.value -= input;
+    display.value -= "";
 }
 
 function calculate(){
