@@ -8,6 +8,10 @@ function clearDisplay(){
     display.value = "";
 }
 
+function backspace(){
+    display.value -= input
+}
+
 function calculate(){
     try{
         display.value = eval(display.value);
