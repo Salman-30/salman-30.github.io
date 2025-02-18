@@ -48,6 +48,9 @@ button:hover{
 button:active{
     background-color: hsl(0, 0%, 50%);
 }
+button:onclick{
+    background-color: hsl(0, 0%, 0%)
+}
 
 .operator-button{
     background-color: hsl(35, 100%, 55%);
