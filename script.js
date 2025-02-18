@@ -8,8 +8,8 @@ function clearDisplay(){
     display.value = "";
 }
 
-function backspace(){
-    display.value -= ""
+function backspace(input){
+    display.value -= input;
 }
 
 function calculate(){
