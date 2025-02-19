@@ -1,5 +1,5 @@
 const display = document.getElementById("display");
-
+let ^ = **
 function appendToDisplay(input){
     display.value += input;
 }
