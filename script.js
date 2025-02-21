@@ -20,8 +20,10 @@ function calculate(){
         display.value = "Error";
     }
 }
-let key = event.key;
 
-if (key == "1") {
-    appendToDisplay(1)
-};
+document.addEventListener("keydown", e=> {
+    if (e === "1") {
+        alert("Hari ganteng")
+    }
+} 
+)
