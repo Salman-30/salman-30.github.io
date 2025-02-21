@@ -22,7 +22,7 @@ function calculate(){
 }
 
 document.addEventListener("keydown", e=> {
-    if (e === "1") {
+    if (e === "u") {
         alert("Hari ganteng")
     }
 } 
