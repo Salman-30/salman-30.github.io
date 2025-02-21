@@ -20,3 +20,8 @@ function calculate(){
         display.value = "Error";
     }
 }
+let key = event.key;
+
+if (key == "1") {
+    appendToDisplay(1)
+};
