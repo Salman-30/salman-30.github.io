@@ -63,7 +63,7 @@ button:onclick{
 }
 
 .navbar{
-    display: flex;
+    display: grid;
     justify-content: right;
     align-items: right;
 }
