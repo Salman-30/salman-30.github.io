@@ -7,6 +7,11 @@ function clearDisplay(){
     display.value = ""
 }
 
+function backspace(){
+    let info = display.value
+    display.value = info.substring(0, info.length - 1)
+}
+
 function calculate(){
     try{
         display.value = eval(display.value);
