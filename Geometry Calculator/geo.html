@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Calculator</title>
+    <link rel="stylesheet" href="geostyle.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Geometry Calculator</h2>
+        <label for="shape">Choose a shape:</label>
+        <select id="shape" onchange="displayInputs()">
+            <option value="circle">Circle</option>
+            <option value="rectangle">Rectangle</option>
+            <option value="triangle">Triangle</option>
+        </select>
+        
+        <div id="inputs"></div>
+        
+        <button onclick="calculate()">Calculate</button>
+        
+        <h3 id="result"></h3>
+    </div>
+
+    <script src="geoscript.js">  
+    </script>
+</body>
+</html>
