@@ -29,6 +29,11 @@ button{
     padding: 100px;
 }
 
+button:hover{
+    transform: scale(1.2);
+    transition: 2s;    
+}
+
 li{
     display: flex;
     flex-wrap: wrap;
@@ -58,9 +63,4 @@ footer{
     font-weight: bold;
     height: 15vh;
     margin: 1px;
-}
-
-ul{
-    display: flex;
-    flex-wrap: wrap;
 }
