@@ -18,16 +18,9 @@ header{
     font-weight: bold;
 }
 
-.main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-    list-style-type: none;
-}
-
 button{
     display: flex;
+    flex-wrap: wrap;
     border: 2px solid;
     border-radius: 10%;
     background: linear-gradient(320deg, #ABDCFF, white);
