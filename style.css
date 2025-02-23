@@ -58,3 +58,8 @@ footer{
     height: 15vh;
     margin: 1px;
 }
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
