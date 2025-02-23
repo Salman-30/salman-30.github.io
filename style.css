@@ -68,7 +68,7 @@ footer{
     margin: 1px;
 }
 
-.navbar {
+.list {
     display: flex;
     justify-content: space-around;
 }
