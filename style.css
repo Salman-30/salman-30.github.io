@@ -67,3 +67,8 @@ footer{
     height: 15vh;
     margin: 1px;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
