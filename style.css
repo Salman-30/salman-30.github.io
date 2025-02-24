@@ -81,3 +81,9 @@ footer{
     justify-content: space-around;
     max-width: 100%;
 }
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
