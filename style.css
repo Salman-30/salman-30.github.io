@@ -10,6 +10,7 @@ body{
 
 header{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 15vh;
@@ -25,8 +26,7 @@ button{
     border-radius: 10%;
     background: linear-gradient(320deg, #2d388a, #00aeef);
     box-shadow: 10px 5px 5px hsl(0, 0%, 20%);
-    margin: 50px;
-    height: 400px;
+    height: 200px;
     padding: 100px;
 }
 
@@ -59,10 +59,17 @@ h1{
 
 footer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background: linear-gradient(320deg, #2d388a, #00aeef);
     font-weight: bold;
     height: 15vh;
     margin: 1px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
 }
