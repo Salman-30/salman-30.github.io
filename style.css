@@ -87,3 +87,31 @@ ul{
     justify-content: center;
     gap: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .list {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        max-width: 50%;
+        align-items: center;
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+    button{
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid;
+        border-radius: 10%;
+        background: linear-gradient(320deg, hsl(0, 38%, 16%), hsl(0, 92%, 42%));
+        box-shadow: 10px 5px 5px hsl(0, 0%, 20%);
+        height: 100px;
+        padding: 50px;
+    }
+    body {
+        justify-content: center;
+    }
+}
