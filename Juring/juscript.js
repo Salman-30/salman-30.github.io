@@ -1,7 +1,7 @@
 function calculate() {
     let a = document.getElementById("a").value
     let radius = document.getElementById("radius").value
-    document.getElementById("result").innerHTML = a/360*Math.PI*radius*radius;     
+    document.getElementById("result").innerHTML = Math.round(a/360*Math.PI*radius*radius);     
 }
 document.addEventListener("keydown", e => {
     if (e.code == "Enter") {
@@ -13,8 +13,8 @@ function displayRes() {
     let a = document.getElementById("a").value
     let radius = document.getElementById("radius").value
     let areaCircle = Math.PI*radius*radius;
-    let areaJuring = a/360*Math.PI*radius*radius;
-    let sisaLuas = areaCircle-areaJuring;
+    let areaJuring = Math.round(a/360*Math.PI*radius*radius);
+    let sisaLuas = Math.round(areaCircle-areaJuring);
     new Chart( document.getElementById('piechart'), {
         type: "pie",
         data: {
