@@ -1,2 +1,2 @@
 const randomNumber = Math.floor(Math.random() * 10)
-console.log(randomNumber)
+alert(randomNumber)
