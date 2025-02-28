@@ -1,0 +1,28 @@
+* {
+    font-family: Helvetica;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.rngGame {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+label {
+    text-align: center;
+}
