@@ -9,3 +9,9 @@ function checkNumber() {
         document.getElementById("result").innerHTML = "You Lose!"
     }
 }
+
+document.addEventListener("keydown", e => {
+    if (e.code === "Enter") {
+        checkNumber()
+    }
+})
