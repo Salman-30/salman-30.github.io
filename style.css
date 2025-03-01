@@ -1,77 +1,77 @@
-body{
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+* {
+    margin: 0px;
 }
-
-header{
+body {
+    font-family:"Lexend", sans-serif;
+    margin: 0px;
+    background-color:white;
+}
+header {
+    background-color: #11111c;
+    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 15vh;
-    background-color: hsl(0, 0%, 30%);
-    color: white;
+    min-height: 15vh;
+    padding: 2vh;
 }
-
-.isi{
-    text-align: center;
-    height: 70vh;
-    background-color: rgb(163, 241, 170);
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    min-height: 20vh;
+    padding: 5vh;
 }
-
-.desc-cal{
-    font-weight: bold;
-    font-size: 30px;
+section h1 {
     color: black;
+    font-size: 1.5rem;
 }
-
-.custom-button{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    padding: 15px;
-    margin: 10px auto;
-    border: none;
-    border-radius: 30px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    cursor: pointer;
-}
-
-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 15vh;
-    background-color: hsl(0, 0%, 30%);
-    color: white;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-}
-.light-but{
+section a {
     color: black;
     text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 2px;
+    outline: rgb(0,0,0) solid 1px;
 }
-
-.green{
-    background-color: yellowgreen;
-}
-.yellow{
-    background-color: yellow;
-}
-.black{
+section a:hover {
+    background-color: gray;
     color: white;
-    background-color: hsl(0, 0%, 25%);
+    outline-color: white;
 }
-.bisque{
-    background-color: bisque;
+.green {
+    background-color: #208c22;
+    color: white;
+}
+.blue {
+    background-color: #0000ff;
+    color: white;
+}
+.red {
+    background-color: #dc143c;
+    color: white;
+}
+.purple {
+    background-color: #800080;
+    color: white;
+}
+.wave1 {
+    background-image: url(SVGWaves/bluewave.svg);
+}
+.wave2 {
+    background-image: url(SVGWaves/redwave.svg);
+}
+.wave3 {
+    background-image: url(SVGWaves/greenwave.svg);
+}
+.wave4 {
+    background-image: url(SVGWaves/purplewave.svg);
+}
+.spacer {
+    aspect-ratio: 960/300;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
