@@ -19,13 +19,6 @@ function calculate(){
     }
 }
 
-/*document.addEventListener("keydown", e => {
-    if (e.code == "Digit1") {
-        appendToDisplay(1)
-    }
-   console.log(e)
-})*/
-
 function Keys(x, y) {
     document.addEventListener("keydown", e => {
     if (e.key == x) {
@@ -35,21 +28,21 @@ function Keys(x, y) {
 
 function backspaceKey(x) {
     document.addEventListener("keydown", e => {
-    if (e.code == x) {
+    if (e.key == x) {
         backspace() 
     }
 })}
 
 function delKey(x) {
     document.addEventListener("keydown", e => {
-    if (e.code == x) {
+    if (e.key == x) {
         clearDisplay() 
     }
 })}
 
 function calcKey(x) {
     document.addEventListener("keydown", e => {
-    if (e.code == x) {
+    if (e.key == x) {
         calculate() 
     }
 })}
@@ -71,5 +64,5 @@ Keys("*", "*")
 Keys("^","**")
 backspaceKey("Backspace")
 delKey("Delete")
-calcKey("Equal")
+calcKey("=")
 calcKey("Enter")

@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     display: flex;
     justify-content: center;
@@ -7,74 +7,44 @@ body{
     width: 100%;
 }
 
-#calculator{
-font-family: Arial,  sans-serif;
-background-color: hsl(0, 0%, 15%);
-border-radius: 15px;
-max-width: 500px;
-overflow: hidden;
+.cal {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    max-width: 50%;
+    flex-wrap: wrap;
 }
 
-#display{
-    width: 100%;
-    padding: 20px;
-    font-size: 5rem;
-    text-align: left;
-    border: none;
-    background-color: hsl(0, 0%, 20%);
-    color: white;
-}
-
-#keys{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    padding: 25px;
-}
-
-button{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: none;
-    background-color: hsl(0, 0%, 30%);
-    color: white;
+.caldisplay {
+    background-color: #333;
+    margin: 0px;
+    border: 0px;
+    border-radius: 15px 15px 0px 0px;
+    min-height: 5%;
     font-size: 3rem;
-    font-weight: bold;
-    cursor: pointer;
-}
-button:hover{
-    background-color: hsl(0, 0%, 40%);
-}
-button:active{
-    background-color: hsl(0, 0%, 50%);
-}
-button:onclick{
-    background-color: hsl(0, 0%, 0%)
+    color: white;
+    padding: 2%;
 }
 
-.operator-button{
-    background-color: hsl(35, 100%, 55%);
+.calkeys {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #111;
+    border-radius: 0px 0px 15px 15px;
+    padding: 2%;
 }
-.operator-button:hover{
-    background-color: hsl(35, 100%, 60%);
-}
-.operator-button:active{
-    background-color:hsl(35, 100%, 65%);
+
+.calkeys button {
+    min-width: 25%;
+    padding: 2vh; 
+    border-radius: 50px;
+    border: 2%;
+    border-color: #111 #111 #111 #111; 
 }
 
 .navbar{
     display: grid;
     justify-content: right;
     align-items: right;
-}
-
-@media only screen and (max-width: 480px) {
-    #calculator {
-        font-family: Arial,  sans-serif;
-        background-color: hsl(0, 0%, 15%);
-        border-radius: 15px;
-        max-width: 90%;
-        overflow: hidden;
-    }
 }
