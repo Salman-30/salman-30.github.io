@@ -1,6 +1,12 @@
 const display = document.getElementById("display");
-function appendToDisplay(input){
+function append(input) {
     display.value += input;
+    brain = parseInt(eval(display.value));
+}
+
+function squareRoot () {
+    root = Math.sqrt(brain);
+    console.log(root)
 }
 
 function clearDisplay(){
