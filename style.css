@@ -27,14 +27,20 @@ section h1 {
     color: black;
     font-size: 1.5rem;
 }
-section a {
-    color: black;
+.but-cal{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 200px;
+    padding: 15px;
+    border: black solid 1px;
+    border-radius: 30px;
+    font-weight:   bold;
+    text-align: center;
+    cursor: pointer;
     text-decoration: none;
-    background-color: white;
-    border-radius: 5px;
-    margin: 2px;
-    padding: 2px;
-    outline: rgb(0,0,0) solid 1px;
+    color: white;
+    margin: 20px;
 }
 section a:hover {
     background-color: gray;
@@ -46,6 +52,7 @@ section a:hover {
     color: white;
 }
 .blue {
+    height: 200px;
     background-color: #0000ff;
     color: white;
 }
@@ -74,4 +81,38 @@ section a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.blue{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.isi-cal {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.c1:hover{
+    transition:  0.5s ease-in-out;
+    padding: 25px;
+}
+
+.c2:hover{
+    transition:  0.5s ease-in-out;
+    padding: 25px;
+}
+
+.c3:hover{
+    transition:  0.5s ease-in-out;
+    padding: 25px;
+}
+
+.c4:hover{
+    transition:  0.5s ease-in-out;
+    padding: 25px;
 }
