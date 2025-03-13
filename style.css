@@ -6,33 +6,30 @@ body {
     margin: 0px;
     background-color:white;
 }
+
 header {
     background-color: #11111c;
     color: white;
-<<<<<<< Updated upstream
-=======
-}
-
-.isi-cal{
-    text-align: center;
-    height: 70vh;
-    background-color: rgb(163, 241, 170);
-}
-
-.desc-cal{
-    font-weight: bold;
-    font-size: 30px;
-    color: black;
-}
-
-.custom-button{
->>>>>>> Stashed changes
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 15vh;
     padding: 2vh;
 }
+
+.header-navbar{
+    display: flex;
+}
+
+header li{
+    padding: 20px;
+    list-style-type: none;
+}
+
+header a{
+    color: white;
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -43,8 +40,28 @@ section {
 }
 section h1 {
     color: black;
-    font-size: 1.5rem;
+    font-size: 4rem;
 }
+
+section p{
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+section a{
+    display: block;
+    width: 200px;
+    padding: 15px;
+    margin: 20px;
+    border: black solid 1px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
 .but-cal{
     display: flex;
     justify-content: center;
@@ -61,7 +78,8 @@ section h1 {
     margin: 20px;
 }
 section a:hover {
-    background-color: gray;
+    transition:  0.5s ease-in-out;
+    background-color: black;
     color: white;
     outline-color: white;
 }
@@ -114,29 +132,3 @@ section a:hover {
     justify-content: space-evenly;
     flex-direction: row;
 }
-
-.c1:hover{
-    transition:  0.5s ease-in-out;
-    padding: 25px;
-}
-
-.c2:hover{
-    transition:  0.5s ease-in-out;
-    padding: 25px;
-}
-
-.c3:hover{
-    transition:  0.5s ease-in-out;
-    padding: 25px;
-}
-
-.c4:hover{
-    transition:  0.5s ease-in-out;
-    padding: 25px;
-}
-<<<<<<< Updated upstream
-=======
-.bisque{
-    background-color: bisque;
-}
->>>>>>> Stashed changes
