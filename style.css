@@ -39,8 +39,8 @@ header a{
 section {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     min-height: 20vh;
     padding: 5vh;
 }
@@ -52,6 +52,16 @@ section h1 {
 section p{
     font-size: 1.5rem;
     margin: 20px;
+}
+
+section ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+}
+
+section li{
+    font-size: 1.5rem;
 }
 
 section a{
@@ -68,27 +78,18 @@ section a{
     cursor: pointer;
 }
 
-.but-cal{
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-    width: 200px;
-    padding: 15px;
-    border: black solid 1px;
-    border-radius: 30px;
-    font-weight:   bold;
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-    margin: 20px;
-}
+
 section a:hover {
     transition:  0.5s ease-in-out;
     background-color: black;
     color: white;
     outline-color: white;
 }
+
+.introduction{
+    background-color: #0000ff;
+}
+
 .green {
     background-color: #208c22;
     color: white;
